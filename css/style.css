@@ -26,7 +26,8 @@
     color: #2e2e2e;
     padding-bottom: 17px;
 }
-.active a{
+.menu_item a:active,
+.menu_item a:focus{
     color: #9f9f9f
 }
 /*  END OF MENU  */
