@@ -1,3 +1,4 @@
+
 body {
 	font-size: 12px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -88,3 +89,32 @@ button:focus {
 	border-left: 1px solid #fff;
 	content: '';
 }
+/* MENU  */
+.nav {
+    height: 76px;
+    border-bottom: 5px solid #f1f1f1;
+}
+.menu {
+    display: flex;
+    font-size: 14px;
+    padding: 0;
+    padding-right: 50px;
+    align-self: flex-end;
+    text-transform: uppercase; 
+    list-style: none;
+}
+.menu .menu_item {
+    margin-right: 20px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    color: #2e2e2e;
+    padding-bottom: 17px;
+}
+.menu_item a:active,
+.menu_item a:focus{
+    color: #9f9f9f
+}
+/*  END OF MENU  */
+
