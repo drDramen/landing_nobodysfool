@@ -120,9 +120,8 @@ button:focus {
 
 /* TITLE */
 .first-title {
-	float: left;
-	margin: 40px auto 50px auto;
-    width: 20%;
+	margin: 44px auto 10px auto;
+    width: 72%;
     font-family: Georgia;
     font-size: 36px;
     line-height: 43px;
@@ -138,7 +137,6 @@ button:focus {
 }
 /* search menu */
 .search {
-    float: right;
     width: 28%;
 }
 .form-wraper {
